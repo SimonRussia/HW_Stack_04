@@ -1,5 +1,5 @@
 //METHOD EMPTY
-#include "stack.hpp"
+#include <stack.hpp>
 
 void foo_empty() {
 	try {

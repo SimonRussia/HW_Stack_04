@@ -1,5 +1,5 @@
 //FUNC MAIN
-#include "stack.hpp"
+#include <stack.hpp>
 
 //ДЕКЛАРАЦИЯ ФУНКЦИЙ ДЛЯ ПРИМЕНЕНИЯ МЕТОДОВ
 void foo_init();

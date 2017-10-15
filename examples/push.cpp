@@ -1,5 +1,5 @@
 //METHOD PUSH
-#include "stack.hpp"
+#include <stack.hpp>
 
 void foo_push() {
 	cout << endl << "RUN PUSH FILE..." << endl;
