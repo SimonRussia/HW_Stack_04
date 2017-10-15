@@ -2,7 +2,7 @@
 #include <stack.hpp>
 
 
-TEST_CASE( "operator = ", "[stack]") {
+TEST_CASE( "Check different functions", "[stack]") {
 	SCENARIO("init")
 	{
 		Stack<int> IntArr;
@@ -38,20 +38,5 @@ TEST_CASE( "operator = ", "[stack]") {
 		REQUIRE(val == 9);
 	}
 }
-
-// SCENARIO("empty") {
-// 	Stack<int> IntArr;
-
-// 	IntArr.push(2);
-// 	IntArr.push(4);
-// 	IntArr.push(6);
-
-// 	int val = IntArr.top();
-// 	IntArr.pop();
-// 	IntArr.pop();
-
-// 	REQUIRE(IntArr.empty() == false);
-// 	REQUIRE(val == 6);
-// }
 
 
