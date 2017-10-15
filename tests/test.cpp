@@ -32,7 +32,7 @@ SCENARIO("pop") {
 	IntArr.pop();
 	IntArr.pop();
 
-	REQUIRE(IntArr.count() == 150);
+	REQUIRE(IntArr.count() == 1);
 	REQUIRE(val == 9);
 }
 
@@ -50,14 +50,5 @@ SCENARIO("empty") {
 	REQUIRE(IntArr.empty() == false);
 	REQUIRE(val == 6);
 }
-
-// SCENARIO("count and size")
-// {
-// 	Stack<int> IntArr;
-// 	IntArr.push(5);
-// 	IntArr.push(7);
-// 	REQUIRE(IntArr.count() == 2);
-// 	REQUIRE(IntArr.size() == 2);
-// }
 
 
