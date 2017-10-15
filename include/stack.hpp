@@ -48,7 +48,7 @@ template <typename T>
 Stack<T>::Stack(std::initializer_list<T> ls) noexcept : array_size_(ls.size()), array_(new T[ls.size()]), count_(ls.size()) {
     std::copy(ls.begin(), ls.end(), array_);
 }
-// end - PART IV ###################################################
+// end - PART IV #####################################################
 
 
 template <typename T>
