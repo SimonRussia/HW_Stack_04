@@ -1,5 +1,5 @@
 //METHOD INIT
-#include <stack.hpp>
+#include "stack.hpp"
 
 void foo_init() {
 	try {
